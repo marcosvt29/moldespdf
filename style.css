@@ -404,26 +404,24 @@ body{
 
 
 
-/* =========================
-   WHATSAPP
-========================= */
 
+/* =========================
+   WHATSAPP FLUTUANTE PREMIUM
+========================= */
 
 .whatsapp-fab{
 
  position:fixed;
 
- right:20px;
+ right:22px;
+ bottom:22px;
 
- bottom:20px;
-
- width:60px;
-
- height:60px;
+ width:64px;
+ height:64px;
 
  border-radius:50%;
 
- border:0;
+ border:none;
 
  background:#25D366;
 
@@ -432,15 +430,16 @@ body{
  display:flex;
 
  align-items:center;
-
  justify-content:center;
-
- box-shadow:
- 0 10px 25px rgba(0,0,0,.3);
 
  cursor:pointer;
 
+ box-shadow:
+ 0 8px 25px rgba(0,0,0,.30);
+
  z-index:999;
+
+ transition:.25s ease;
 
 }
 
@@ -448,8 +447,58 @@ body{
 
 .whatsapp-fab svg{
 
- width:32px;
- height:32px;
+ width:34px;
+ height:34px;
+
+ filter:
+ drop-shadow(0 2px 2px rgba(0,0,0,.25));
+
+}
+
+
+
+.whatsapp-fab:hover{
+
+ transform:
+ translateY(-5px)
+ scale(1.08);
+
+ box-shadow:
+ 0 15px 35px rgba(0,0,0,.35);
+
+}
+
+
+
+.whatsapp-fab:active{
+
+ transform:
+ scale(.95);
+
+}
+
+
+
+/* animação discreta */
+
+@keyframes pulseWhats{
+
+0%{
+ box-shadow:
+ 0 0 0 0 rgba(37,211,102,.45);
+}
+
+
+70%{
+ box-shadow:
+ 0 0 0 14px rgba(37,211,102,0);
+}
+
+
+100%{
+ box-shadow:
+ 0 0 0 0 rgba(37,211,102,0);
+}
 
 }
 
