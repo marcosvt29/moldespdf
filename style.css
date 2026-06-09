@@ -8,8 +8,8 @@
 
 body{
  margin:0;
- font-family:Arial, Helvetica, sans-serif;
- background:#E5ECF6;
+ font-family:'Inter', sans-serif;
+ background:#f5f6fa;
  color:#111;
 }
 
@@ -17,7 +17,7 @@ body{
 .wrap{
  max-width:980px;
  margin:auto;
- padding:16px;
+ padding:30px;
  background:#fff;
 }
 
@@ -130,24 +130,26 @@ body{
 
 .card{
 
- background:white;
+background:#fff;
 
- border-radius:18px;
+border-radius:22px;
 
- overflow:hidden;
+overflow:hidden;
 
- box-shadow:
- 0 10px 30px rgba(0,0,0,.08);
+box-shadow:
+0 15px 40px rgba(0,0,0,.08);
 
- transition:.25s;
+transition:.3s;
 
 }
 
 
-
 .card:hover{
 
- transform:translateY(-5px);
+transform:translateY(-8px);
+
+box-shadow:
+0 25px 60px rgba(0,0,0,.15);
 
 }
 
@@ -300,21 +302,32 @@ body{
 
 .product-info p{
 
- line-height:1.6;
+ line-height:1.8;
 
  text-align:justify;
+
+color:#555;
+
+font-size:16px;
+
+
 
 }
 
 
 
+
+
+
 .price-current{
 
- font-size:24px;
+font-size:28px;
 
- font-weight:bold;
+font-weight:800;
 
- margin:15px 0;
+color:#111;
+
+margin:20px 0;
 
 }
 
