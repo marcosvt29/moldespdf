@@ -248,7 +248,8 @@ images:[
 "imagens/cc04.png",
 "imagens/cc05.png",
 "imagens/cc06.png",
-"imagens/cc07.png"
+"imagens/cc07.png",
+"imagens/dp01.png"
 
 ],
 
